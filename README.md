@@ -4,7 +4,7 @@ Base de Datos del INEGI que contiene todos los estados, municipios y localidades
 
 El archivo contiene 3 tablas: `estados`, `municipios` y `localidades`. El diseño de la base de datos se muestra en la siguiente imagen:
 
-![DB Design][http://developarts.com/bl-content/uploads/db.png]
+![DB Design](http://developarts.com/bl-content/uploads/db.png)
 
 Los campos `clave` son una referencia numérica usado por el [INEGI](http://www.inegi.org.mx/) y están relacionados a su padre exceptuando estados. 
 
