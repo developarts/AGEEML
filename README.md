@@ -32,7 +32,7 @@ Espero que sea de utilidad para tu proyecto.
 #### estados
 | Columna | tipo | Comentarios |
 | --- | --- | --- |
-| id | int(11) | (Primaria) |
+| id | int(11) | ![Llave Primaria](http://developarts.com/bl-content/uploads/iconkey.png) |
 | clave | varchar(2) | **CVE_ENT** - Clave de la entidad |
 | nombre | varchar(40) | **NOM_ENT** - Nombre de la entidad |
 | abrev | varchar(10) | **NOM_ABR** - Nombre abreviado de la entidad |
@@ -41,7 +41,7 @@ Espero que sea de utilidad para tu proyecto.
 #### municipios
 | Columna | tipo | Comentarios |
 | --- | --- | --- |
-| id | int(11) | (Primaria) |
+| id | int(11) | ![Llave Primaria](http://developarts.com/bl-content/uploads/iconkey.png) |
 | estado_id | int(11) | Relación: _estados -> id_ |
 | clave | varchar(3) | **CVE_MUN** - Clave del municipio |
 | nombre | varchar(100) | **NOM_MUN** - Nombre del municipio |
@@ -50,7 +50,7 @@ Espero que sea de utilidad para tu proyecto.
 #### localidades
 | Columna | tipo | Comentarios |
 | --- | --- | --- |
-| id | int(11) | (Primaria) |
+| id | int(11) | ![Llave Primaria](http://developarts.com/bl-content/uploads/iconkey.png) |
 | municipio_id | int(11) | Relación: _municipios -> id_ |
 | clave | varchar(4) | **CVE_LOC** – Clave de la localidad |
 | nombre | varchar(100) | **NOM_LOC** - Nombre de la localidad |
