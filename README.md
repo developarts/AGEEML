@@ -11,7 +11,6 @@ En este proyecto, extraigo toda la información de ese archivo y la convierto a 
 <!-- pagebreak -->
 
 ## Diseño
-------
 
 El archivo contiene 3 tablas: `estados`, `municipios` y `localidades`. El diseño de la base de datos se muestra en la siguiente imagen:
 
@@ -27,12 +26,10 @@ Este es el conteo de registros:
 
 
 ## Coordenadas Geográficas
-------
 
 Los campos `latitud` y `longitud` vienen originalmente en un sistema de coordenadas **DMS** (Grados/Minutos/Segundos) y hago la conversión a un sistema de coordenadas **DD** (Grados Decimales) en los campos `lat` y `lng` para ser ocupados en sistemas de mapas tipo _Google Maps_
 
 ## Descarga
-------
 
 La base de datos MySQL se puede descargar desde el proyecto de GitHub dándo click en el siguiente enlace:
 
@@ -41,7 +38,6 @@ La base de datos MySQL se puede descargar desde el proyecto de GitHub dándo cli
 
 
 ## Diccionario de Datos
-------
 
 Descripción de los campos de cada tabla del proyecto
 
@@ -86,7 +82,6 @@ Descripción de los campos de cada tabla del proyecto
 
 
 ## Actualizaciones:
-------
 
 `[2018-10-18]` Se actualizó la información del INEGI a **SEP2018**.
 
