@@ -1,4 +1,4 @@
-# Áreas Geoestadísticas Estatales, Municipales y Localidades del INEGI
+# Áreas Geoestadísticas Estatales, Municipales y Localidades
 
 Base de Datos del INEGI en MySQL
 
@@ -34,15 +34,18 @@ El archivo contiene 3 tablas: `estados`, `municipios` y `localidades`. El diseñ
 
 He importado todos los campos que vienen en la base de datos del [INEGI](http://www.inegi.org.mx/), se pueden consultar en la sección _"Diccionario de Datos"_. Los campos importados están marcados en **negrita**.
 
-Este es el conteo de registros:
+La versión actuial es: **2020.10.v01**
+
+La fecha de corte corresponde a **OCT 2020**
+
+Conteo de registros:
 
 * **32** Estados
 * **2,469** Municipios
 * **300,690** Localidades
 
-El peso de la base de datos es de **37.3 MB**
+El peso de la base de datos es de: **37.3 MB**
 
-La fecha de corte corresponde a **OCT 2020**
 
 
 ## Coordenadas Geográficas <a name="link2"></a>
@@ -109,6 +112,7 @@ Descripción de los campos de cada tabla del proyecto
 
 
 * `[2020-11-20]` Se actualizó la información del INEGI a **OCT2020**.
+*  `[2020-11-19]` El nombre del proyecto de renombró a **AGEEML**.
 * `[2018-10-18]` Se actualizó la información del INEGI a **SEP2018**.
 * `[2018-10-11]` Se creó el proyecto en GitHub para la distribución de los releases.
 * `[2016-02-01]` Se actualizó la información del INEGI a **ENE2016**.
