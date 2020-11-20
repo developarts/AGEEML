@@ -1,4 +1,4 @@
-# Áreas Geoestadísticas Estatales, Municipales y Localidades
+# Áreas Geoestadísticas Estatales, Municipales y Localidades del INEGI
 
 Base de Datos del INEGI en MySQL
 
