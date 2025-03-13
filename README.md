@@ -108,6 +108,12 @@ Descripción de los campos de cada tabla del proyecto
 | `activo` | tinyint(1) |  |
 
 
+## Stats
+
+![Alt](https://repobeats.axiom.co/api/embed/3e48b760f2599bf26c7a2c3d347dd892298f1054.svg "Repobeats analytics image")
+
+
+
 ## Actualizaciones <a name="link5"></a>
 
 
